@@ -1,7 +1,4 @@
 Action,Properties,Subject1,Subject2
 Navigate,testPage,,
 Click,HomePage.HomePage.LoginPage.SignIn,,
-InputData,HomePage.LogInDetails,HomePage.HomePage.json,LogInDetails
-Click,HomePage.SignInButton,,
-IsDisplayed,HomePage.MyAccount,,
 Quit
