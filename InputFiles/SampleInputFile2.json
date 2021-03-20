@@ -1,0 +1,31 @@
+{
+    "book": 
+    {
+       "book1": {
+            "title": "Beginning JSON",
+            "author": "Ben Smith",
+            "price": "10"
+        },
+        "book2":{
+            "title": "JSON: Questions and Answers",
+            "author": "George Duckett",
+            "price": "6"
+        }
+    },
+    "price": 
+    {
+     	"price1":{
+        	"cheap1": "11",
+        	"medium1": "20"
+        },
+        "price2":{
+        	"cheap2": "110",
+        	"medium2":"44888"       
+        }
+    },
+    "publisher": 
+    {
+        "name": "Bharath",
+        "address": "vijayawad"
+    }
+}

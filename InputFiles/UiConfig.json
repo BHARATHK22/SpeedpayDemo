@@ -1,0 +1,5 @@
+{
+	"environment":"chrome",
+	"headless":"true",
+	"URL":"http://automationpractice.com/index.php"
+}
