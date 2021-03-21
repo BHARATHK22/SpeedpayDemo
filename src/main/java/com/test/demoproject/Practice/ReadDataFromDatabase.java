@@ -4,6 +4,8 @@ public class ReadDataFromDatabase {
 
 	public static void main(String [] args) {
 		  String dataBaseName="GmFinance";
+		  
+		  // client Database name will get from config.properties file
 		  Connection connection;
 		  ResultSet resultSet;
 		  String creditAccount=null;
@@ -16,7 +18,7 @@ public class ReadDataFromDatabase {
              // Get Random Credit Account
              resultSet=preparedStatement.executeQuery();
              while(resultSet.next()){
-                   creditAccount=resultSet.getString("Credit_Account");
+                  creditAccount=resultSet.getString("Credit_Account");
                   String phone=resultSet.getString("Phone");
                  
                   System.out.println("creditAccount::"+creditAccount);
